@@ -1,0 +1,95 @@
+Descrição dos procedimentos e linhas de comandos no comandos GitHub para criação de um repositório
+
+I - Criar um novo repositório remoto no GitHub
+
+1. Selecionar "New repository" na página do GitHub
+2. Selecionar o usuário em "Owner" responsável pelo repositório
+3. Atribuir um nome ao repositório em "Repository name"
+4. Atribuir uma descrição ao repositório em "Description"
+5. Marcar repositório como "Public"
+6. Para inicializar o repositório:
+	a. marcar README file
+	b. marcar gitignore e selecionar o template "Python"
+	c. marcar license e selecionar "MIT License"
+
+II - Criar uma cópia do repositório remoto para o sistema local
+
+1. Instalar o Git no computador <https://git-scm.com/downloads>
+2. Copiar o repositório "repositorio-experimental" do Github para o computador local
+3. No prompt de comando do Microsoft Windows para copiar o repositório: 
+
+git clone https://github.com/tbazzan/repositorio-experimental
+
+4. Para listar os arquivos pasta corrente e verificar se o repositório foi copiado:
+
+dir
+
+5. Para alterar o diretório corrente para a pasta repositorio-experimental:
+
+cd repositorio-experimental
+
+6. Para verificar os arquivos existentes neste diretório:
+
+dir
+
+7. Para verificar o status do repositório:
+
+git status
+
+8. Pode-se modificar o conteúdo do arquivo README.md diretamente no bloco de notas
+
+9 Para verificar novamente o status do repositório após a modificação no conteúdo do arquivo README.md
+
+git status
+
+10. incluir o arquivo README.md na lista a ser confirmada sobre atualizações para o repositório local:
+
+git add README.md
+
+git status
+
+11. Confirmar e salvar todas as modificações realizadas até aqui na estrutura dos arquivos do repositório:
+
+git commit -m "Primeira versão do arquivo README.md"
+
+III - Sincronizar a cópia local com o repositório remoto no GitHub ainda no prompt de comando do Microsoft Windows
+
+1. Verificar se a cópia local está atualizada com a remota:
+
+git pull
+
+2. Atualizar o repositório remoto com as modificações locais:
+
+git push
+
+3. Verificar no GitHub se as modificações locais foram atualizadas
+
+IV - Adicionar arquivos no sistema local para posterior atualização no GitHub 
+
+1. Criar um arquivo "comandos.txt" e salvar na pasta local "repositorio-experimental"
+
+2. Para adicionar o arquivo pelo prompt de comando do Microsoft Windows:
+
+git add comandos.txt
+
+3. Verificar o status do repositório:
+
+git status
+
+4. Confirmar a inclusão do arquivo no repositório local:
+
+git commit -m "Resumo das sequências de comando Git e GitHub"
+
+5. Verificar o status do repositório:
+
+git status
+
+6. Verificar se a cópia local está atualizada com a remota:
+
+git pull
+
+7. Atualizar o repositório remoto com as modificações locais:
+
+git push
+
+8. Verificar no GitHub se as modificações e inclusões locais foram atualizadas.

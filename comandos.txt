@@ -1,8 +1,8 @@
-Descrição dos procedimentos e linhas de comandos no Git e GitHub para criação e modificações de um repositório
+Resumo dos procedimentos e linhas de comandos no Git e GitHub para criação e modificações de um repositório
 
 I - Criar um novo repositório remoto no GitHub
 
-1. Na página do GitHub <https://github.com/tbazzan> clicar em "Repositories" e selecionar "New"
+1. Na página do GitHub <https://github.com/tbazzan> clicar em "Repositories" e Selecionar "New"
 2. Selecionar o usuário em "Owner" responsável pelo repositório
 3. Atribuir um nome ao repositório em "Repository name"
 4. Atribuir uma descrição ao repositório em "Description"

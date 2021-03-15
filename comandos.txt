@@ -1,26 +1,26 @@
-Descrição dos procedimentos e linhas de comandos no comandos GitHub para criação de um repositório
+Descrição dos procedimentos e linhas de comandos no Git e GitHub para criação e modificações de um repositório
 
 I - Criar um novo repositório remoto no GitHub
 
-1. Selecionar "New repository" na página do GitHub
+1. Na página do GitHub <https://github.com/tbazzan> clicar em "Repositories" e Selecionar "New"
 2. Selecionar o usuário em "Owner" responsável pelo repositório
 3. Atribuir um nome ao repositório em "Repository name"
 4. Atribuir uma descrição ao repositório em "Description"
 5. Marcar repositório como "Public"
 6. Para inicializar o repositório:
-	a. marcar README file
-	b. marcar gitignore e selecionar o template "Python"
-	c. marcar license e selecionar "MIT License"
+	a. marcar o item "README file"
+	b. marcar o item "gitignore" e selecionar o template "Python"
+	c. marcar o item "license" e selecionar "MIT License"
 
 II - Criar uma cópia do repositório remoto para o sistema local
 
-1. Instalar o Git no computador <https://git-scm.com/downloads>
-2. Copiar o repositório "repositorio-experimental" do Github para o computador local
+1. Instalar o Git no computador local <https://git-scm.com/downloads>
+2. Copiar o repositório remoto "repositorio-experimental" do Github para o computador local
 3. No prompt de comando do Microsoft Windows para copiar o repositório: 
 
 git clone https://github.com/tbazzan/repositorio-experimental
 
-4. Para listar os arquivos pasta corrente e verificar se o repositório foi copiado:
+4. Para listar os arquivos da pasta corrente e verificar se o repositório foi copiado:
 
 dir
 
